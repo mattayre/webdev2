@@ -1,0 +1,93 @@
+/* my overides for bootstrap */
+
+.mediawidth {
+	color: white;
+}
+
+.thumbnail {
+	background-color: black;
+	overflow: hidden;
+	width: auto;
+	height:500px;
+	border: 0px;
+	padding: 0px;
+	margin:-15px;
+}
+.thumbnail img{
+	-webkit-filter:brightness(90%);
+	background-color: black;
+	opacity: .6;
+	width: 520px;
+	height: 650px;
+	border: 0px;
+	padding:0px;
+    
+}
+
+.thumbnail img:hover{
+	-webkit-transition: all .5s;
+	-webkit-filter:brightness(120%);
+	width: 400px;
+	height: 500px;
+	border:0px;
+	padding: 0px;
+}
+
+.navbar-header {
+	background-color: transparent;		
+	position: relative;
+	top: -40px;
+	left: 200px;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+}
+
+.collapse a {
+	color: white !important;
+}
+
+.container {
+	max-width: 1240px;
+	width:100%;
+	height: auto;
+	padding: 0px;
+	border: 0px;
+}
+.navbar-collapse li{
+	background-color: transparent;
+	font-size: 15px;
+
+}
+.navbar-collapse li:hover {
+	background-color: grey;
+	font-size: 20px;
+}
+
+
+.fill {
+	opacity:0.75;
+	height:150px;
+	-webkit-filter:blur(7px);
+}
+
+.carousel-caption {
+	height:150px;
+	width:auto;	
+}
+
+.carousel-caption h1{
+	color:lightgrey;
+	font-size:50px;
+	letter-spacing: -8px;
+  	font-weight: bolder;
+  	text-align: center;
+  	position: relative;
+  	top:-10px;
+}
+
+.row {
+	margin:0px;
+}
+

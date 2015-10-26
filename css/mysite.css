@@ -1,0 +1,143 @@
+/* my main css */
+
+@font-face {
+	font-family: myfont;
+	src:url(../fonts/Daniel-Black.otf);
+}
+@font-face {
+	font-family: mysecondfont;
+	src:url(../fonts/daniel-ttf);
+}
+
+
+
+@media screen and (max-width:900px) {
+    .mediawidth {
+        text-align: center;
+    }
+    .icons {
+    	visibility: hidden;
+    }
+    .carousel-caption h1{
+		font-size:35px;
+		letter-spacing: -6px;
+    }
+    .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+	max-width:400px ;
+	height:500px;
+	
+}
+}
+
+@media screen and (min-width:750px) {
+    
+}
+
+body {
+	background-image:url(../images/back1.jpg);
+	font-family: myfont;
+}
+
+.sectionheading {
+	background-image:url(../images/back1.jpg);
+	max-width: 1280px;
+	height: auto;
+	padding: 0px;
+	border: 0px;
+}
+
+.section2 {
+	max-width: 1280px;
+	height: auto;
+	padding: 0px;
+	border: 0px;
+}
+
+.section3 {
+	background-image:url(../images/back1.jpg);
+	max-width: 1280px;
+	height: auto;
+	padding: 0px;
+	border: 0px;
+}
+
+.icons {
+	display: inline;
+	float: right;
+	
+	
+}
+
+.icons i {
+	color: white;
+	padding: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 0%;
+
+} 
+
+.icons i:hover {
+	background-color: black;
+	color: grey;
+	font-size: 20px;
+}
+
+.fa-twitter-square:hover{
+	font-size: 90px;
+}
+.fa-envelope:hover{
+	font-size: 90px;
+}
+.fa-facebook:hover{
+	font-size: 90px;
+}
+.fa-linkedin:hover{
+	font-size: 90px;
+}	
+
+
+h4:hover {
+	background-color: grey;
+	border-radius: 2px;
+} 
+
+.section3cola {
+	padding:20px 30px;
+}
+
+.section3cola h4 {
+	color:white;
+	padding-top:10px
+}
+
+.section3cola p{
+	color:LightGrey;
+	letter-spacing: 2px;
+}
+
+.section3cola .glyphicon{
+	color:LightGrey;
+	font-size:40px;
+}
+
+.section3colb {
+	background-color:transparent;
+	padding:0px;
+	text-align:center;
+	color:white;
+}
+
+.section3colb i{
+	color:white;	
+}
+
+.copyright {
+	position: relative;
+	top:350px;
+	 
+}
