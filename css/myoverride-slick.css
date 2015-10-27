@@ -22,12 +22,13 @@
 }
 
 .slickcontainer{
-	background-color: rgba(0,0,0,.4);
+	background-color:red;
 }
 
-.responsive {	
+.responsive {
+	background-color: green;	
 	width:100%;
-	max-width:1150px;
+	max-width:150px;
 	margin:20px auto;
 	border:20px;
 	padding:20px;
