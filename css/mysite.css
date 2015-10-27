@@ -27,8 +27,8 @@
     margin-right: auto;
 	max-width:auto ;
 	height:auto;
-	
-}
+	}
+
 }
 
 @media screen and (min-width:750px) {
@@ -36,7 +36,6 @@
 }
 
 body {
-	overflow-x: hidden; 
 	background-color: yellow;
 	font-family: myfont;
 }
