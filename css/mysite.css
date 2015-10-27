@@ -36,9 +36,9 @@
 }
 
 body {
-	overflow: hidden;
 	background-image:url(../images/back1.jpg);
 	font-family: myfont;
+	width: auto;
 }
 
 .sectionheading {
