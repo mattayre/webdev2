@@ -29,6 +29,7 @@
 	height:auto;
 	}
 
+
 }
 
 @media screen and (min-width:750px) {
@@ -36,7 +37,7 @@
 }
 
 body {
-	background-color: yellow;
+	background-image:url(../images/back1.jpg);
 	font-family: myfont;
 }
 
