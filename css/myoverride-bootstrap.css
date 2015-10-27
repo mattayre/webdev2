@@ -8,30 +8,32 @@
 	background-color: black;
 	overflow: hidden;
 	width: auto;
-	height:500px;
+	height:650px;
 	border: 0px;
 	padding: 0px;
-	margin:-15px;
+	margin:0px;
 }
 .thumbnail img{
 	-webkit-filter:brightness(90%);
 	background-color: black;
 	opacity: .6;
-	width: 520px;
+	width: auto;
 	height: 650px;
 	border: 0px;
 	padding:0px;
+	overflow: hidden;
     
 }
 
 .thumbnail img:hover{
 	-webkit-transition: all .5s;
-	-webkit-filter:brightness(120%);
-	width: 400px;
-	height: 500px;
-	border:0px;
+	-webkit-filter:brightness(160%);
+	width: auto;
+	height: 650px;
+	border:px;
 	padding: 0px;
 }
+
 
 .navbar-header {
 	background-color: transparent;		
@@ -61,7 +63,6 @@
 	height: auto;
 	padding: 0px;
 	border: 0px;
-	margin: 0px;
 }
 .navbar-collapse li{
 	background-color: transparent;
@@ -78,6 +79,7 @@
 	opacity:0.75;
 	height:150px;
 	-webkit-filter:blur(7px);
+	
 }
 
 .carousel-caption {

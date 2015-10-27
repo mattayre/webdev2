@@ -10,13 +10,14 @@
 }
 
 
+ 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     .mediawidth {
         text-align: center;
     }
     .icons {
-    	visibility: hidden;
+    	display: none;
     }
     .carousel-caption h1{
 		font-size:35px;
@@ -28,7 +29,6 @@
 	max-width:auto ;
 	height:auto;
 	}
-
 
 }
 
@@ -65,7 +65,6 @@ body {
 }
 
 .icons {
-	display: inline;
 	float: right;
 	
 	
@@ -106,6 +105,25 @@ h4:hover {
 	background-color: grey;
 	border-radius: 2px;
 } 
+
+.section3cola1{
+	padding:20px 30px;
+}
+
+.section3cola1 h4 {
+	color:white;
+	padding-top:10px
+}
+
+.section3cola1 p{
+	color:LightGrey;
+	letter-spacing: 2px;
+}
+
+.section3cola1 .glyphicon{
+	color:LightGrey;
+	font-size:40px;
+}
 
 .section3cola {
 	padding:20px 30px;
