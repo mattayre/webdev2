@@ -25,7 +25,7 @@
 	background-color: rgba(0,0,0,.4);
 }
 
-.responsive {	
+.responsive {
 	width:100%;
 	max-width:1150px;
 	margin:20px auto;
@@ -66,4 +66,10 @@
 	position: relative;
 	top:-20px;
 	left:-20px;
+}
+.slick-prev {
+	visibility: hidden;
+}
+.slick-next {
+	visibility: hidden;
 }
