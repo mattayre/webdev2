@@ -68,12 +68,12 @@
 	left:-20px;
 }
 .slick-prev {
-	position: relative;
-	left: 150px;
+	
+	left: 0px;
 }
 .slick-next{
-		position: relative;
-	right: -150px;
+		
+	right:0px;
 }
 .slick-dots{
 	left: 0px;
