@@ -8,30 +8,28 @@
 	background-color: black;
 	overflow: hidden;
 	width: auto;
-	height:650px;
+	height:auto;
 	border: 0px;
 	padding: 0px;
 	margin:0px;
 }
 .thumbnail img{
-	-webkit-filter:brightness(90%);
+	-webkit-filter:brightness(40%);
 	background-color: black;
-	opacity: .6;
-	width: auto;
-	height: 650px;
 	border: 0px;
 	padding:0px;
-	overflow: hidden;
+	-webkit-transform:scale(1.7);
+    transform:scale(1.7);
     
 }
 
 .thumbnail img:hover{
-	-webkit-transition: all .5s;
-	-webkit-filter:brightness(160%);
-	width: auto;
-	height: 650px;
-	border:px;
+	-webkit-transition: all 1s;
+	-webkit-filter:brightness(120%);
+	border:0px;
 	padding: 0px;
+	-webkit-transform:scale(1);
+    transform:scale(1);
 }
 
 
@@ -82,7 +80,7 @@
 .fill {
 	opacity:0.75;
 	height:150px;
-	-webkit-filter:blur(7px);
+	-webkit-filter:blur(17px);
 	
 }
 
